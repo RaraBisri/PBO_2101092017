@@ -17,6 +17,6 @@ public class latihan1 {
         x = 'A';
         
         System.out.println( value );
-        System.out.println ( "The value of x=" + x);
+        System.out.println ( "The value of x="+ x);
     }
 }
