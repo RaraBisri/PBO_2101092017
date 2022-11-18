@@ -98,7 +98,7 @@ public class peminjaman_RaraBisri
     
     //TotalHutang
     public double getTotalHutang() {
-        TotalHutang = (int) (JumlahPinjaman * Bunga);
+        TotalHutang = (int) (JumlahPinjaman + Bunga);
         
         return TotalHutang;
     }
