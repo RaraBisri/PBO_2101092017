@@ -79,6 +79,27 @@ public void setEnglishGrade(double englishGrade){
         return studentCount;
     }
     
+     public StudentRecord(){ 
+        
+    }
+    
+    
+    public StudentRecord(String temp){
+        this.name = temp;
+    }
+    
+    public StudentRecord(String name, String address){
+        this.name = name;
+        this.address = address;
+    }
+    
+    public StudentRecord(double mGrade, double eGrade,double sGrade){
+        mathGrade=mGrade;
+        englishGrade=eGrade;
+        scienceGrade=sGrade;
+        
+    }
+     
     //maximum
     public double getMax() {
     
@@ -86,6 +107,8 @@ public void setEnglishGrade(double englishGrade){
         max = (scienceGrade >= max)? scienceGrade:max;
         
         return max;
+    
     }
+    
+    
 }
-
