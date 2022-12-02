@@ -29,5 +29,9 @@ public class studentrecordexample {
         System.out.println("Nilai Pengetahuan Alam  :"+student1.getScienceGrade());
         System.out.println("Nilai Rata Rata     :"+student1.getAverage());
         System.out.println("Nilai Maximum        :"+student1.getMax());
+        
+        StudentRecord student2 = new StudentRecord("Rara" , "Padang");
+        System.out.println("Nama                    :"+student2.getName());
+        System.out.println("Alamat                  :"+student2.getAddress());
     }
 }
